@@ -1,14 +1,16 @@
+import React from 'react';
+
 import styled from 'styled-components';
 
-export function Header () {
-    return (
-      <HeaderWrapper>
-        <Title>점심 뭐 먹지</Title>
-        <AddRestaurantButton type="button" aria-label="음식점 추가">
-          <img src="/assets/add-button.png" alt="음식점 추가" />
-        </AddRestaurantButton>
-      </HeaderWrapper>
-    );
+export function Header() {
+  return (
+    <HeaderWrapper>
+      <Title>점심 뭐 먹지</Title>
+      <AddRestaurantButton type='button' aria-label='음식점 추가'>
+        <img src='/assets/add-button.png' alt='음식점 추가' />
+      </AddRestaurantButton>
+    </HeaderWrapper>
+  );
 }
 
 const HeaderWrapper = styled.header`
